@@ -13,3 +13,6 @@
     background-position: center;
 }
 
+.container {
+    gap: 15px;
+}
