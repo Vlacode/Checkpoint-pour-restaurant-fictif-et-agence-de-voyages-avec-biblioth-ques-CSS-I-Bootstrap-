@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Délice gourmand</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+    <!--section en tête-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Index.html">Délice gourmand</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link" href="#menu">Menu</a>
+                    <a class="nav-link" href="#about">A propos de nous</a>
+                    <a class="nav-link" href="#call">Contact</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--section héro-->
+    <section class="hero d-flex justify-content-center align-items-center text-center">
+        <div>
+            <h1 class="text-white">
+                Savourez nos plats d’exception
+            </h1>
+            <p class="text-white ">
+                Une expérience culinaire unique vous attend.
+            </p>
+            <button class="btn btn-warning">
+                En savoir +
+            </button>
+        </div>
+    </section>
+
+    <!--section menu-->
+    <section class="container py-5">
+
+        <h2 class="text-center mb-5" id="menu">
+            Notre Menu
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- PLAT 1 -->
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./Image/grilled-fish-close-up-decorated-with-vegetables.jpg"
+                        class="card-img-top"
+                        alt="Saumon grillé">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Saumon grillé
+                        </h5>
+                        <p class="card-text">
+                            Filet de saumon assaisonné et grillé à la perfection,
+                            servi avec une sauce au beurre citron.
+                        </p>
+                        <p class="fw-bold">
+                            15 000 F
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PLAT 2 -->
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./Image/Attiéke s rybou.jpg"
+                        class="card-img-top"
+                        alt="Attiéké poisson">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Attiéké poisson
+                        </h5>
+                        <p class="card-text">
+                            Semoule de manioc servie avec du poisson grillé
+                            et des légumes frais.
+                        </p>
+                        <p class="fw-bold">
+                            12 000 F
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PLAT 3 -->
+            
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="./Image/side-view-pilaf-with-stewed-beef-meat-plate.jpg"
+                        class="card-img-top"
+                        alt="Riz gras">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Riz gras
+                        </h5>
+                        <p class="card-text">
+                            Riz mijoté dans une sauce tomate épicée
+                            avec viande et légumes.
+                        </p>
+                        <p class="fw-bold">
+                            8 000 F
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section a propos de nous-->
+    <section class="container py-5">
+        <div class="row align-items-center">
+
+            <!-- IMAGE -->
+            <div class="col-md-6">
+                <img src="./Image/restaurant-hall-with-lots-table.jpg"
+                    class="img-fluid rounded"
+                    alt="Restaurant">
+            </div>
+
+            <!-- TEXTE -->
+
+            <div class="col-md-6">
+                <h2 id="about">
+                    A propos de nous
+                </h2>
+                <p>
+                    Délice Gourmand est une adresse conviviale idéale
+                    pour les dîners et les repas d’affaires.
+                </p>
+
+                <p>
+                    Nous sommes spécialisés dans la gastronomie
+                    européenne et africaine, avec des plats
+                    préparés à partir d’ingrédients frais
+                    et soigneusement sélectionnés.
+                </p>
+
+                <p>
+                    Notre mission est d’offrir une expérience
+                    culinaire unique dans un cadre chaleureux
+                    et élégant.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--section contact-->
+    <section class="container py-5">
+        <h2 class="text-center mb-5" id="call">
+            Contactez-nous
+        </h2>
+
+        <form>
+
+            <!-- nom -->
+            <div class="mb-3">
+                <label for="nom" class="form-label">
+                    Nom
+                </label>
+                <input type="text"
+                    class="form-control"
+                    id="nom"
+                    placeholder="Entrez votre nom"
+                    required>
+            </div>
+
+            <!-- email-->
+            <div class="mb-3">
+                <label for="email" class="form-label">
+                    Adresse e-mail
+                </label>
+                <input type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="example@gmail.com"
+                    required>
+            </div>
+
+            <!-- message -->
+            <div class="mb-3">
+                <label for="message" class="form-label">
+                    Message
+                </label>
+                <textarea class="form-control"
+                        id="message"
+                        rows="5"
+                        placeholder="Laissez-nous un message">
+                </textarea>
+            </div>
+
+            <!-- boutton-->
+            <button type="submit"
+                    class="btn btn-warning">
+
+                Envoyer
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+
+            <h5>
+                Délice Gourmand
+            </h5>
+
+            <p>
+                © 2026 Tous droits réservés
+            </p>
+
+            <!-- Réseaux sociaux -->
+
+            <div class="d-flex justify-content-center gap-4">
+
+                <a href="#" class="text-white">
+
+                    <i class="bi bi-facebook"></i>
+
+                </a>
+
+                <a href="#" class="text-white">
+
+                    <i class="bi bi-instagram"></i>
+
+                </a>
+
+                <a href="#" class="text-white">
+
+                    <i class="bi bi-twitter-x"></i>
+
+                </a>
+
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
