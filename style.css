@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero{
+    height: 100vh;
+
+    background-image: url("./image/front-view-young-woman-holding-tickets-with-juice-vacation-pink-desk-summer-voyage-woman-trip-rest.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+

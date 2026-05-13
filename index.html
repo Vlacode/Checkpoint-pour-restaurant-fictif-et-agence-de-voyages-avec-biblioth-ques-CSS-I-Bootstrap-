@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TravelDream</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+
+        <!--section en tête-->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+                <div class="container">
+
+                    <a class="navbar-brand" href="index.html">
+                        TravelDream
+                    </a>
+
+                    <button class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse"
+                        id="navbarNav">
+
+                        <div class="navbar-nav ms-auto">
+
+                            <a class="nav-link" href="#home">
+                                Accueil
+                            </a>
+
+                            <a class="nav-link" href="#destination">
+                                Destinations
+                            </a>
+
+                            <a class="nav-link" href="#circuits">
+                                Circuits
+                            </a>
+
+                            <a class="nav-link" href="#call">
+                                Contact
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </nav>
+        </header>
+
+        <!--section hero-->
+        <section class="hero d-flex justify-content-center align-items-center text-center">
+
+            <div>
+
+                <h1 class="text-white" id="home">
+                    Découvrez le monde autrement
+                </h1>
+
+                <p class="text-white">
+                    Explorez des destinations inoubliables.
+                </p>
+
+                <button class="btn btn-warning">
+                    Réserver maintenant
+                </button>
+
+            </div>
+
+        </section>
+
+        <!--section destination-->
+        <section class="container py-5">
+
+            <h2 class="text-center mb-5" id="destination">
+                Destinations populaires
+            </h2>
+            <!--destionation paris-->
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <img src="./image/paris-rooftop-view-skyline-eiffel-tower-france.jpg"
+                            class="card-img-top"
+                            alt="Paris">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Paris
+                            </h5>
+
+                            <p class="card-text">
+                                Découvrez la ville lumière et ses monuments emblématiques.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--destination barcelone-->
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <img src="./image/port-vell-sunset-from-montjuic.jpg"
+                            class="card-img-top"
+                            alt="Paris">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Barcelone
+                            </h5>
+
+                            <p class="card-text">
+                                Capitale vibrante de la Catalogne, séduit par son mélange unique de culture, d’architecture et de douceur méditerranéenne.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--destion rome-->
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="card h-100">
+
+                        <img src="./image/famous-arena-sunset-nimes.jpg"
+                            class="card-img-top"
+                            alt="Paris">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Rome
+                            </h5>
+
+                            <p class="card-text">
+                                Capitale éternelle de l’Italie, Rome séduit par son mélange unique d’histoire, d’art et de dolce vita.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--section voyage-->
+        <section class="container py-5">
+    
+            <h2 class="text-center mb-5" id="circuits">
+                Nos Circuits
+            </h2>
+
+            <div class="accordion" id="accordionExample" >
+
+                <!-- Circuit europe -->
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">
+
+                            Circuit Europe
+                        </button>
+
+                    </h2>
+
+                    <div id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+
+                            Explorez Paris, Rome et Barcelone en 10 jours.
+
+                            <br><br>
+
+                            <a href="#">
+                                Voir les détails
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--circuit amérique-->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">
+
+                            Circuit Amérique
+                        </button>
+
+                    </h2>
+
+                    <div id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+
+                            Explorez New york, San francisco et Chicago en 30 jours.
+
+                            <br><br>
+
+                            <a href="#">
+                                Voir les détails
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--circuit asie-->
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+
+                        <button class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">
+
+                            Circuit Asie
+                        </button>
+
+                    </h2>
+
+                    <div id="collapseOne"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+
+                            Explorez Tokyo, Hong kong et Bangkok en 50 jours.
+
+                            <br><br>
+
+                            <a href="#">
+                                Voir les détails
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--section contact-->
+        <section class="container py-5">
+
+            <h2 class="text-center mb-5" id="call">
+                Contactez-nous
+            </h2>
+
+            <form>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Nom
+                    </label>
+
+                    <input type="text"
+                        class="form-control">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Adresse e-mail
+                    </label>
+
+                    <input type="email"
+                        class="form-control">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Destination d’intérêt
+                    </label>
+
+                    <input type="text"
+                        class="form-control">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Message
+                    </label>
+
+                    <textarea class="form-control"
+                            rows="5"></textarea>
+
+                </div>
+
+                <button class="btn btn-warning">
+                    Envoyer
+                </button>
+
+            </form>
+
+        </section>
+
+        <!--footer-->
+        <footer class="bg-dark text-white text-center py-4">
+
+            <div class="container">
+
+                <h5>
+                    TravelDream
+                </h5>
+
+                <p>
+                    © 2026 Tous droits réservés
+                </p>
+
+                <!-- Réseaux sociaux -->
+
+                <div class="d-flex justify-content-center gap-4">
+
+                    <a href="#" class="text-white">
+
+                        <i class="bi bi-facebook"></i>
+
+                    </a>
+
+                    <a href="#" class="text-white">
+
+                        <i class="bi bi-instagram"></i>
+
+                    </a>
+
+                    <a href="#" class="text-white">
+
+                        <i class="bi bi-twitter-x"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
